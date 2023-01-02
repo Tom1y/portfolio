@@ -1,0 +1,22 @@
+.myWork {
+  color: #22223b;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #c9ada7;
+  padding-bottom: 1.5rem;
+}
+
+.myWork ul {
+  /* list-style-type: none; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+  gap: 3rem;
+}
+
+.myWork h3 {
+  margin-top: 1rem;
+}
