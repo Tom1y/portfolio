@@ -10,10 +10,10 @@ export default function Navbar() {
             <a href="#about">About</a>
           </li>
           <li>
-            <a href="#test1">Work</a>
+            <a href="#work">Work</a>
           </li>
           <li>
-            <a href="#test2">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </nav>

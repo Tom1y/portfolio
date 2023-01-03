@@ -24,3 +24,17 @@
 .aboutMe p {
   color: #22223b;
 }
+
+@media (min-width: 1000px) {
+  .aboutMe {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+}
+
+@media (min-width: 1500px) {
+  .aboutMe {
+    width: 50%;
+  }
+}

@@ -14,7 +14,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
+}
+
+.projects p {
+  text-align: center;
+  background-color: #c9ada7;
+  color: white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .projects h3 {
@@ -59,4 +67,54 @@
   color: white;
   font-size: 16px;
   padding: 0.5rem 4rem;
+}
+
+.smallProjects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.smallProjects-img {
+  max-width: 80%;
+  max-height: 15rem;
+  align-self: center;
+  margin-top: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.smallProjects-background {
+  margin-top: 1rem;
+  /* margin-bottom: 1rem; */
+  padding-bottom: 2rem;
+}
+
+@media (min-width: 1000px) {
+  .container {
+    max-width: 70%;
+  }
+
+  .projects p {
+    width: 100%;
+  }
+
+  .smallProjects-background {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 2rem;
+  }
+
+  .smallProjects-img {
+    max-width: 77%;
+    max-height: 15rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (min-width: 1500px) {
+  .container {
+    max-width: 60%;
+  }
 }
