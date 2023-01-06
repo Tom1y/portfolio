@@ -9,34 +9,34 @@ export default function Projects() {
   return (
     <div className="projects" id="work">
       <h3>My work</h3>
-      <div className="container">
+      <div className="container" onClick={() => window.open(url, "")}>
         <img
           src="./Images/bp-trenerstvo.jpg"
           alt="bp-trenerstvo"
           className="projects-img"
         ></img>
-        <div className="middle" onClick={() => window.open(url, "")}>
+        <div className="middle">
           <div className="text">bp-trenerstvo.si/</div>
         </div>
       </div>
-      <div className="container">
+      <div className="container" onClick={() => window.open(url2, "")}>
         <img
           src="./Images/foodo.jpg"
           alt="foodo"
           className="projects-img"
         ></img>
-        <div className="middle" onClick={() => window.open(url2, "")}>
+        <div className="middle">
           <div className="text">glovo clone for practice</div>
         </div>
       </div>
-      <div className="container">
+      <div className="container" onClick={() => window.open(url3, "")}>
         <img
           src="./Images/shooping-cart.jpg"
           alt="js practice"
           className="projects-img"
         ></img>
-        <div className="middle" onClick={() => window.open(url3, "")}>
-          <div className="text">shooping cart (js practice)</div>
+        <div className="middle">
+          <div className="text">shopping cart (js practice)</div>
         </div>
       </div>
       <p>

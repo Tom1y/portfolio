@@ -7,7 +7,7 @@ export default function AboutMe() {
       <h2>About me</h2>
       <p>
         My name is Tomi Horvat. I'm 25 years old and come from Maribor. I
-        graduated on Faculty of Education as a kindergarten teacher. When I
+        graduated on the Faculty of Education as a kindergarten teacher. When I
         finished working in the kindergarten, it was clear to me that I would
         rather work in some other field. I chose programming because I saw the
         current trend of "self-taught programmers" and wanted to give it a go.
