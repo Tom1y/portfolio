@@ -23,6 +23,8 @@
 }
 .aboutMe p {
   color: #22223b;
+  font-weight: 500;
+  font-size: 1.1rem;
 }
 
 @media (min-width: 1000px) {

@@ -3,6 +3,8 @@ import "./Projects.css";
 
 export default function Projects() {
   const url = "https://bp-trenerstvo.si/";
+  const url2 = "https://tom1y.github.io/food-delivery-page/";
+  const url3 = "https://loquacious-alpaca-2cbd43.netlify.app/";
 
   return (
     <div className="projects" id="work">
@@ -23,7 +25,7 @@ export default function Projects() {
           alt="foodo"
           className="projects-img"
         ></img>
-        <div className="middle" onClick={() => window.open(url, "")}>
+        <div className="middle" onClick={() => window.open(url2, "")}>
           <div className="text">glovo clone for practice</div>
         </div>
       </div>
@@ -33,7 +35,7 @@ export default function Projects() {
           alt="js practice"
           className="projects-img"
         ></img>
-        <div className="middle" onClick={() => window.open(url, "")}>
+        <div className="middle" onClick={() => window.open(url3, "")}>
           <div className="text">shooping cart (js practice)</div>
         </div>
       </div>

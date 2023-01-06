@@ -89,9 +89,15 @@
   padding-bottom: 2rem;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 600px) {
   .container {
     max-width: 70%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    max-width: 60%;
   }
 
   .projects p {
@@ -115,6 +121,6 @@
 
 @media (min-width: 1500px) {
   .container {
-    max-width: 60%;
+    max-width: 50%;
   }
 }
